@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 
-/* Header Section */
+/*** Header Section ***/
 header {
   display: flex;
   width: 100%;
@@ -21,8 +21,8 @@ header {
   align-items: center;  
 }
 
-.logo img {
-  height: 50px;
+.logo img{
+  height: 50px; 
   margin-left: 10px;
 }
 
@@ -50,7 +50,7 @@ nav a {
 }
 
 
-/* Mission Section */
+/*** Mission Section ***/
 .background {
   display: inline-flex;
   background-image: url("/resources/images/mission-background.jpg");
@@ -72,4 +72,36 @@ nav a {
   padding-top: 11px;
 }
 
+/*** Tea of the Month Section ***/
+.tea-month {
+  width: 1000px;
+  display: inline-block;
+  margin-top: 65px;
+}
 
+.tea-month-text h2 {
+  margin-bottom: 5px;
+}
+
+.tea-month h4 {
+  margin-bottom: 25px
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+.image img {
+  height: 200px;
+  width: 300px;
+}
+
+.image h4 {
+  padding-top: 10px;
+  margin-bottom: 35px;
+}
+
+.bizarre-tea {
+  margin-left: -331px;
+}
