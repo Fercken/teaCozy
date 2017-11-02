@@ -51,7 +51,7 @@ nav a {
 
 
 /*** Mission Section ***/
-.background {
+.mission-background {
   display: inline-flex;
   background-image: url("/resources/images/mission-background.jpg");
   height: 700px;
