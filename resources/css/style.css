@@ -1,4 +1,4 @@
-/* Universal Styles */
+/*** Universal Styles ***/
 body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
@@ -49,11 +49,10 @@ nav a {
   top: 70px;
 }
 
-
 /*** Mission Section ***/
 .mission-background {
   display: inline-flex;
-  background-image: url("/resources/images/mission-background.jpg");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
   align-items: center;
@@ -106,19 +105,20 @@ nav a {
   margin-left: -331px;
 }
 
-
 /*** Locations Section ***/
 .locations-background {
-  background-image: url("/resources/images/locations-background.jpg");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 570px;
   width: 1200px;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .locations-text h2 {
   margin-bottom: 15px;
+  margin-top: 0;
 }
 
 .locations-elements {
@@ -147,6 +147,7 @@ nav a {
   margin-bottom: 40px;
 }
 
+/*** Footer Section ***/
 footer h5 {
   text-align: left;
   margin-left: 20px;
