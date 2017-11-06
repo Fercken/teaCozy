@@ -158,6 +158,10 @@ nav a {
 }
 
 /*** Contact Section ***/
+#contact {
+  height: 200px;
+}
+
 #contact h2 {
   margin-top: 10px;
   margin-bottom: 40px;
