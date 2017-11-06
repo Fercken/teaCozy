@@ -43,62 +43,71 @@ nav a {
 
 /* Container Section */
 .container {
-  /*display: flex;*/
-  /*flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   top: 70px;
 }
 
 /*** Mission Section ***/
-.mission-background {
-  display: inline-flex;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+#mission {
+  background-image: url("../images/mission-background.jpg");
   height: 700px;
   width: 1200px;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-color: black;
-  height: 100px;
   width: 1200px;
 }
 
-.content h2, h4 {
-  margin: 0;
-  padding-top: 11px;
+.content h2{
+  padding: 0;
+  margin: 15px 0;
+}
+
+.content h4 {
+  padding: 0;
+  margin-top: 1px;
+  margin-bottom: 10px;
 }
 
 /*** Tea of the Month Section ***/
-.tea-month {
+#featured {
   width: 1000px;
-  display: inline-block;
+  display: flex;
   margin-top: 65px;
 }
 
 .tea-month-text h2 {
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 
-.tea-month h4 {
-  margin-bottom: 25px
+.tea-month-text h4 {
+  margin-top: 15px;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   justify-content: space-around;
 }
+
 .image img {
   height: 200px;
   width: 300px;
 }
 
 .image h4 {
-  padding-top: 10px;
-  margin-bottom: 35px;
+  padding: 0;
+  margin-top: 10px;
 }
 
 .bizarre-tea {
@@ -106,13 +115,13 @@ nav a {
 }
 
 /*** Locations Section ***/
-.locations-background {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+#locations {
+  background-image: url("../images/locations-background.jpg");
   height: 570px;
   width: 1200px;
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 50px;
 }
 
@@ -133,6 +142,9 @@ nav a {
   opacity: 1;
 }
 
+.locations-adress h3 {
+  margin-top: 37px;
+}
 .locations-adress h4 {
   margin-bottom: 40px;
 }
@@ -142,13 +154,13 @@ nav a {
 }
 
 /*** Contact Section ***/
-.contact-content h2 {
+#contact h2 {
   margin-top: 10px;
   margin-bottom: 40px;
 }
 
 /*** Footer Section ***/
 footer h5 {
-  text-align: left;
+  margin-right: 1080px;
   margin-left: 20px;
 }
