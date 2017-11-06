@@ -41,7 +41,7 @@ nav a {
   color: seashell;
 }
 
-/* Container Section */
+/*** Container Section ***/
 .container {
   display: flex;
   flex-direction: column;
@@ -128,8 +128,9 @@ nav a {
 }
 
 .locations-text h2 {
-  margin-bottom: 15px;
-  margin-top: 0;
+  position: absolute;
+  top: 1545px;
+  left: 597px;
 }
 
 .locations-elements {
@@ -147,6 +148,7 @@ nav a {
 .locations-adress h3 {
   margin-top: 37px;
 }
+
 .locations-adress h4 {
   margin-bottom: 40px;
 }
